@@ -1,0 +1,23 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8, 100px);
+    justify-content: center;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    border: solid black 1px;
+}
+
+.square:nth-child(16n + 1),
+.square:nth-child(16n + 3),
+.square:nth-child(16n + 5),
+.square:nth-child(16n + 7),
+.square:nth-child(16n + 10),
+.square:nth-child(16n + 12),
+.square:nth-child(16n + 14),
+.square:nth-child(16n + 16) {
+    background-color: black;
+}
