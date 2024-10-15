@@ -1,14 +1,14 @@
 .grid {
-    display: grid;
-    grid-template-columns: repeat(8, 100px);
-    grid-template-rows: repeat(8, 100px);
-    justify-content: center;
+	display: grid;
+	grid-template-columns: repeat(8, 100px);
+	grid-template-rows: repeat(8, 100px);
+	justify-content: center;
 }
 
 .square {
-    height: 100px;
-    width: 100px;
-    border: solid black 1px;
+	height: 100px;
+	width: 100px;
+	border: solid black 1px;
 }
 
 /* Using nth-child, every 16 element is turned to black, the second value is where it starts on the grid. 1 starts at the first box in the upper left-hand corner.
@@ -21,5 +21,16 @@
 .square:nth-child(16n + 12),
 .square:nth-child(16n + 14),
 .square:nth-child(16n + 16) {
-    background-color: black;
+	background-color: black;
+}
+
+.square:nth-child(16n + 2),
+.square:nth-child(16n + 4),
+.square:nth-child(16n + 6),
+.square:nth-child(16n + 8),
+.square:nth-child(16n + 9),
+.square:nth-child(16n + 11),
+.square:nth-child(16n + 13),
+.square:nth-child(16n + 15) {
+	background-color: white;
 }
