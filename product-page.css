@@ -11,6 +11,8 @@
 }
 
 .product {
+	display: flex;
+	flex-direction: column;
 	width: 300px;
 	height: 400px;
 	border: solid 2px;
@@ -18,12 +20,23 @@
 	padding: 20px;
 	margin: 10px;
 	background-color: white;
+	text-align: center;
 }
 
 .product img {
 	width: 300px;
+	height: auto;
 }
 
-/* .product:hover {
-	background-color: lightgray;
-} */
+input[type="button"] {
+	background-color: #5aa9dd;
+	border-color: #5aa9dd;
+	border-radius: 20px;
+	color: white;
+	padding: 15px;
+}
+
+input[type="button"]:hover {
+	background-color: #3594d3;
+	border-color: #3594d3;
+}

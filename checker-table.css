@@ -1,0 +1,23 @@
+.checkerboard {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-spacing: 0;
+}
+
+.square-black {
+	background-color: black;
+	padding: 0;
+	height: 100px;
+	width: 100px;
+	border: solid black;
+}
+
+.square {
+	background-color: white;
+	padding: 0;
+	height: 100px;
+	width: 100px;
+	border: solid white;
+}

@@ -1,0 +1,22 @@
+.flag {
+	display: flex;
+	justify-content: center;
+	border-spacing: 0;
+}
+
+.stars {
+	position: absolute;
+}
+
+.stripes-red {
+	display: block;
+	height: 63px;
+	width: 1400px;
+	background-color: red;
+}
+.stripes {
+	display: block;
+	height: 63px;
+	width: 1400px;
+	background-color: white;
+}
