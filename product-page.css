@@ -11,8 +11,8 @@
 }
 
 .product {
-	display: flex;
-	flex-direction: column;
+	display: grid;
+	grid-template-rows: 1fr 5fr 2fr;
 	width: 300px;
 	height: 400px;
 	border: solid 2px;
