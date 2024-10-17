@@ -16,9 +16,9 @@ h1 {
 
 .product {
 	display: grid;
-	grid-template-rows: 1fr 5fr 2fr;
-	width: 300px;
-	height: 400px;
+	grid-template-rows: 1fr 5fr 2fr 60px;
+	width: 400px;
+	height: 600px;
 	border: solid 2px;
 	border-radius: 10px;
 	padding: 20px;
@@ -28,11 +28,14 @@ h1 {
 }
 
 .product img {
-	width: 300px;
+	width: 400px;
 	height: auto;
 }
 
 input[type="button"] {
+	grid-row: 4;
+	height: 50px;
+	width: 100px;
 	background-color: #5aa9dd;
 	border-color: #5aa9dd;
 	border-radius: 20px;
