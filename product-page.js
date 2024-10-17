@@ -32,7 +32,7 @@ tenEightyBtn.addEventListener("click", () => {
 });
 
 seventySixHundredBtn.addEventListener("click", () => {
-	window.open("https://www.amazon.com/ASRock-RX7600-SL-8GO-Graphics/dp/B0C6HTVV52");
+	window.open("https://www.amazon.com/ASRock-RX7600-SL-8GO-Graphics/dp/B0CSP9FJ3B?th=1");
 });
 
 seventyEightHundredBtn.addEventListener("click", () => {
