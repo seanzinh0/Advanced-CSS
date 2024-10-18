@@ -7,8 +7,6 @@
 body {
 	background-image: linear-gradient(#6fb7ff, #a4b5ff);
 	background-repeat: no-repeat;
-	height: 160vh;
-	width: 100%;
 }
 
 .header__main {
@@ -39,4 +37,8 @@ body {
 .header__main-ul a {
 	text-decoration: none;
 	color: black;
+}
+
+footer {
+	min-height: 20vh;
 }
